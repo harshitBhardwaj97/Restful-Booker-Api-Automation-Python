@@ -1,6 +1,6 @@
 # Restful Booker API Automation Suite (Python)
 
-This project is an API automation suite created in Python for the Restful Booker API. It includes automated tests using the Pytest framework to ensure the functionality of the Restful Booker API endpoints.
+This project is an API automation suite created in Python for the [Restful Booker API](https://restful-booker.herokuapp.com/apidoc/index.html). It includes automated tests using the Pytest framework to ensure the functionality of the Restful Booker API endpoints.
 
 ## Installation
 
