@@ -27,10 +27,6 @@ def test_create_valid_booking():
     assert_that(response_body).contains('bookingid')
     assert_that(response_body['booking']['firstname']).is_equal_to(valid_booking_data['firstname'])
     print(r.status_code, r.content)
-    
-    
-    
-
 
 
 

@@ -29,9 +29,6 @@ def test_update_booking(booking_to_be_updated, create_token):
     assert_that(response_body['bookingdates']['checkout']).is_equal_to(updated_booking_data['bookingdates']['checkout'])
     assert_that(response_body['additionalneeds']).is_equal_to(updated_booking_data['additionalneeds'])
     print(r.status_code, r.content)
-    
-    
-
 
 
 

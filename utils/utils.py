@@ -30,7 +30,6 @@ def generate_valid_booking_data():
         "additionalneeds": additionalneeds
     }
 
-    # return json.dumps(booking_data)
     return booking_data
 
 def generate_invalid_booking_data():

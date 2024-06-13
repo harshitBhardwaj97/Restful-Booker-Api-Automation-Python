@@ -25,9 +25,6 @@ def test_partial_update_booking(booking_to_be_patched, create_token):
     assert_that(response_body['firstname']).is_equal_to(updated_booking_data['firstname'])
     assert_that(response_body['lastname']).is_equal_to(updated_booking_data['lastname'])
     print(r.status_code, r.content)
-    
-    
-    
 
 
 
