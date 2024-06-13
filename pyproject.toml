@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "restful-booker-api-automation-python"
+version = "0.1.0"
+description = "An API Automation Suite created in Python for Restful Booker API"
+authors = ["Harshit Bhardwaj <harshitbhardwaj97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+assertpy = "^1.1"
+requests = "^2.32.3"
+faker = "^25.8.0"
+pytest-html = "^4.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
