@@ -1,0 +1,4 @@
+Initial Response body after creating a booking is 
+ b'{"bookingid":3984,"booking":{"firstname":"Justin","lastname":"Kramer","totalprice":407,"depositpaid":true,"bookingdates":{"checkin":"2024-03-24","checkout":"2024-03-30"},"additionalneeds":"Breakfast"}}'
+<Response [200]> 200 b'{"token":"3b0daf32d591762"}'
+200 b'{"firstname":"Mark","lastname":"Fleming","totalprice":556,"depositpaid":true,"bookingdates":{"checkin":"2024-03-14","checkout":"2024-04-10"},"additionalneeds":"Breakfast"}'

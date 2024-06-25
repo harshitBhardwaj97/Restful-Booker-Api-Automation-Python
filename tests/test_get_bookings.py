@@ -4,6 +4,7 @@ import pytest
 from config import BASE_URL
 from utils.utils import generate_valid_booking_data
 
+
 @pytest.fixture(scope='module')
 def created_booking():
     # Create a booking
@@ -11,6 +12,7 @@ def created_booking():
     r = requests.post(f'{BASE_URL}/booking', json=booking_data)
     r.raise_for_status()
     return r.json()['bookingid']
+
 
 def test_get_bookings(created_booking):
     r = requests.get(f'{BASE_URL}/booking')

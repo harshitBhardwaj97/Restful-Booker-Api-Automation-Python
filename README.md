@@ -14,10 +14,18 @@ This project is an API automation suite created in Python for the Restful Booker
 poetry install
 ```
 
-## To run the automated tests and generate an HTML report:
+## To run the automated tests and generate an allure report, execute: 
 
 ```
-poetry run pytest --html=report.html
+poetry run pytest
 ```
 
-This will generate the html report in current directory with name of report (or whatever you passed as parameter in the above command).
+Allure report will be generated automatically inside allure-results folder.
+
+## To serve the allure report, execute: 
+
+```
+allure serve allure-results
+```
+
+For this, allure must be installed locally on your system. Refer [this](https://allurereport.org/docs/install/) for installing allure on your system.

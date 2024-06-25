@@ -12,6 +12,7 @@ assertpy = "^1.1"
 requests = "^2.32.3"
 faker = "^25.8.0"
 pytest-html = "^4.1.1"
+allure-pytest = "^2.13.5"
 
 
 [build-system]
@@ -20,3 +21,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+addopts = [
+    "--alluredir", "allure-results",
+    "--clean-alluredir"
+]

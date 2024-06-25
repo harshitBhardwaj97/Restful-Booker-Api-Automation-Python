@@ -1,0 +1,2 @@
+{'firstname': 'Robert', 'lastname': 'Morton', 'totalprice': 271, 'depositpaid': 'Mx. Jason Ruiz', 'bookingdates': [], 'additionalneeds': 'Lunch'}
+HTTP error occurred: 500 Server Error: Internal Server Error for url: https://restful-booker.herokuapp.com/booking

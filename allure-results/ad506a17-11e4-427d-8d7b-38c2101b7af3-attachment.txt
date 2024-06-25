@@ -1,0 +1,1 @@
+3906 b'{"firstname":"Christina","lastname":"Hayes","totalprice":682,"depositpaid":true,"bookingdates":{"checkin":"2023-12-04","checkout":"2023-12-08"},"additionalneeds":"Breakfast"}'

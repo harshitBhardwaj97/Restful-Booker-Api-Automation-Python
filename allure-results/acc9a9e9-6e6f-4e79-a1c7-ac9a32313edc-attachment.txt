@@ -1,0 +1,2 @@
+<Response [200]> 200 b'{"token":"2f934f25705a7a8"}'
+b'Created'

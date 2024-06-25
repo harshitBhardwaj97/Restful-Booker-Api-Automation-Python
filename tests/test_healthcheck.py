@@ -2,6 +2,7 @@ import requests
 from config import BASE_URL
 from assertpy import assert_that
 
+
 def test_healthcheck():
     r = requests.get(f'{BASE_URL}/ping')
     print(r, r.content)

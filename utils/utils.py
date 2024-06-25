@@ -4,6 +4,7 @@ from datetime import timedelta
 
 fake = Faker()
 
+
 def generate_valid_booking_data():
     # Generate fake data
     firstname = fake.first_name()
@@ -32,6 +33,7 @@ def generate_valid_booking_data():
 
     return booking_data
 
+
 def generate_invalid_booking_data():
     # Generate fake data
     firstname = fake.first_name()
@@ -51,6 +53,7 @@ def generate_invalid_booking_data():
     }
 
     return invalid_booking_data
+
 
 def get_updated_data():
     firstname = fake.first_name()

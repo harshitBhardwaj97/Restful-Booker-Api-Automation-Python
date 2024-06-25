@@ -3,6 +3,7 @@ from assertpy import assert_that
 import requests
 from config import BASE_URL
 
+
 @pytest.fixture
 def create_token():
     headers = {'Content-Type': 'application/json'}
